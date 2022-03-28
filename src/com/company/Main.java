@@ -24,5 +24,17 @@ public class Main {
         System.out.println("The total weight of athletes " + sumWeight + " kg");
         System.out.println("Athlete weight difference " + weightDifference + " kg");
 
+        // Задача 3
+
+        byte banana = 5;
+        byte milk = 2;
+        byte iceCream = 2;
+        byte egg = 4;
+        int sum = banana * 80 + milk * 105 + iceCream * 100 + egg * 70;
+        System.out.println("Sum of the meal is " + sum + " gramm");
+        float sumInKg = sum / 1000f;
+        System.out.println("Sum of the meal is " + sumInKg + " kg");
+
+
     }
 }
