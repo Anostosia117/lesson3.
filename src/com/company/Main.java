@@ -35,6 +35,16 @@ public class Main {
         float sumInKg = sum / 1000f;
         System.out.println("Sum of the meal is " + sumInKg + " kg");
 
+        // Задача 4
+
+        byte loseWeight = 7;
+        int loseWeightInGr = 7 * 1000;
+        int days250 = loseWeightInGr / 250;
+        int days500 = loseWeightInGr / 500;
+        System.out.println("Total days if 250 gr are " + days250);
+        System.out.println("Total days if 500 gr are " + days500);
+        System.out.println("On average it takes " + (days250 + days500) / 2 + " days");
+
 
     }
 }
