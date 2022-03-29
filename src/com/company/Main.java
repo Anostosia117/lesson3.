@@ -45,6 +45,27 @@ public class Main {
         System.out.println("Total days if 500 gr are " + days500);
         System.out.println("On average it takes " + (days250 + days500) / 2 + " days");
 
+        // Задача 5
+
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        int newMasha = 67760 * 10 / 100 + 67760;
+        int newDenis = 83690 * 10 / 100 + 83690;
+        int newKristina = 76230 * 10 / 100 + 76230;
+        int MashaYear = Masha * 12;
+        int DenisYear = Denis * 12;
+        int KristinaYear = Kristina * 12;
+        int MashaYear10 = newMasha * 12;
+        int DenisYear10 = newDenis * 12;
+        int KristinaYear10 = newKristina * 12;
+        int MashaNewSalary = MashaYear10 - MashaYear;
+        int DenisNewSalary = DenisYear10 - DenisYear;
+        int KristinaNewSalary = KristinaYear10 - KristinaYear;
+        System.out.println("Masha now receives " + newMasha + " rubles. " + "Annual income increased by " + MashaNewSalary + " rubles");
+        System.out.println("Denis now receives " + newDenis + " rubles. " + "Annual income increased by " + DenisNewSalary + " rubles");
+        System.out.println("Kristina now receives " + newKristina + " rubles. " + "Annual income increased by " + KristinaNewSalary + " rubles");
+
 
     }
 }
