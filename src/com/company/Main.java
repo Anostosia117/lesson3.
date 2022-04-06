@@ -66,6 +66,16 @@ public class Main {
         System.out.println("Denis now receives " + newDenis + " rubles. " + "Annual income increased by " + DenisNewSalary + " rubles");
         System.out.println("Kristina now receives " + newKristina + " rubles. " + "Annual income increased by " + KristinaNewSalary + " rubles");
 
+        // Задание 6
 
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a * (b + (c - d * e));
+        System.out.println(result);
+        int resultMinus = -result;
+        System.out.println(resultMinus);
     }
 }
